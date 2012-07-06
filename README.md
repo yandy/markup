@@ -21,6 +21,10 @@ you wish to run the library.
 * [.pod](http://search.cpan.org/dist/perl/pod/perlpod.pod) -- `Pod::Simple::HTML`
   comes with Perl >= 5.10. Lower versions should install Pod::Simple from CPAN.
 
+> for ubuntu user, install the last 3
+
+  $ sudo apt-get install python-docutils asciidoc libpod-simple-perl
+
 
 Contributing
 ------------
