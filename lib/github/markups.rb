@@ -1,7 +1,7 @@
 MD_FILES = /md|mkdn?|mdown|markdown/
 
 if markup('geakit/markdown', MD_FILES) do |content|
-    Geakit::Markdown.render(content)
+    GeaKit::Markdown.render(content)
   end
 elsif markup(:redcarpet, MD_FILES) do |content|
     RedcarpetCompat.new(content).to_html
